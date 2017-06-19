@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kristin.kristin2017summer">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name="com.example.kristin.kristin2017summer.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.kristin.kristin2017summer.ViewPagerActivity" />
+        <activity
+            android:name="com.example.kristin.kristin2017summer.ActivityA"
+            android:launchMode="singleInstance" />
+        <activity android:name="com.example.kristin.kristin2017summer.ActivityC$ScaleTypeActivity" />
+        <activity android:name="com.example.kristin.kristin2017summer.ActivityB" />
+        <activity android:name="com.example.kristin.kristin2017summer.ActivityC" />
+        <activity android:name="com.example.kristin.kristin2017summer.ActivityD" />
+        <activity android:name="com.example.kristin.kristin2017summer.NinePatchActivity" />
+        <activity android:name="com.example.kristin.kristin2017summer.NotificationActivity" />
+        <activity android:name="com.example.kristin.kristin2017summer.AdvanceListViewActivity"></activity>
+    </application>
+
+</manifest>
